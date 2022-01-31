@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    height: 667px;
+    width: 375px;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 31);
+}
+
+.header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 40px;
+}
+
+.header, .footer {
+    background-color: rgb(58, 58, 68);
+    color: white;
+}
+
+.footer {
+    padding: 10px 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.search {
+    background-color: rgb(58, 58, 68);
+    color: rgb(102, 102, 119);
+    border: 1px solid rgb(102, 102, 119);
+    border-radius: 20px;
+    padding: 10px;
+    width: 275px;
+    align-self: center;
+}
+
+.search:hover {
+    cursor: text;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 50px;
+}
+
+.clicked {
+    background-color: rgba(71, 212, 118, 0.39);
+    color: rgb(71, 212, 118);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.not-clicked {
+    padding: 20px;
+}
+
+.clicked:hover, .not-clicked:hover {
+    cursor: pointer;
+}
