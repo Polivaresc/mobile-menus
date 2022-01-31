@@ -12,17 +12,20 @@
 <body>
 
     <div class="mobile-body">
-        <header class="header">LOGO</header>
+        <header class="header">
+            <button class="menu-button" id="open-menu">OPEN MENU</button>
+            <button class="menu-button hidden" id="close-menu">CLOSE MENU</button>
+        </header>
 
         <div class="search">Search</div>
 
-        <ul class="menu">
-            <li id="1" class="not-clicked">Dashboard</li>
-            <li id="2" class="clicked">Team</li>
-            <li id="3" class="not-clicked">Chat</li>
-            <li id="4" class="not-clicked">Followers</li>
-            <li id="5" class="not-clicked">Following</li>
-            <li id="6" class="not-clicked">New Work</li>
+        <ul id="menu" class="menu hidden">
+            <li class="not-clicked">Dashboard</li>
+            <li class="clicked">Team</li>
+            <li class="not-clicked">Chat</li>
+            <li class="not-clicked">Followers</li>
+            <li class="not-clicked">Following</li>
+            <li class="not-clicked">New Work</li>
         </ul>
 
         <footer class="footer">Firstname Lastname</footer>
